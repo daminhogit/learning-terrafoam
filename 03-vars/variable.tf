@@ -24,9 +24,9 @@ variable "sample3" {
 #strings are double quotes in terraform and no quotes for number and boolean
 variable "list1" {
   default = [
-  "hello",
-  100,
-  tru3
+    "hello",
+    100,
+    tru3
   ]
 }
 
