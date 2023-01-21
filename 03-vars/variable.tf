@@ -26,7 +26,7 @@ variable "list1" {
   default = [
     "hello",
     100,
-    tru3
+    true
   ]
 }
 
