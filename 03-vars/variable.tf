@@ -1,8 +1,11 @@
-variable "sample" {
+variable "samplex" {
   default = "Hello"
 }
 
-output "sample" {
+variable "sample" {
+  default = "Hello"
+}
+output "samplex" {
   value = var.sample
 }
 
