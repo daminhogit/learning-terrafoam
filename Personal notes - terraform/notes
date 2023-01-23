@@ -1,0 +1,5 @@
+To use short syntax >>ta
+alias ta='git pull ; terraform init ; terraform apply -auto-approve'
+
+To use short syntax >>td
+alias td='git pull ; terraform init ; terraform destroy -auto-approve'
