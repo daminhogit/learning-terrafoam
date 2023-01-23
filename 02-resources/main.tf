@@ -3,3 +3,8 @@ resource "aws_instance" "tests" {
   instance_type = "t3.micro"
 
 }
+
+output "public_ip" {
+  value = aws_instance.test.public_ip
+
+}
